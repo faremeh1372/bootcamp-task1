@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+@font-face {
+    font-family: Vazir-Bold;
+    font-weight: 900;
+    font-style: normal;
+    src: url(assets/fonts/Vazir-Bold.woff2)format(woff2);
+}
+
+.body {
+    font-family: Vazir-Bold;
+}
+
+.block__header {
+    font-family: Vazir-Bold;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #0e0d0d;
+    margin-right: 10rem;
+}
+
+@media screen and(min-width: 1042px) {
+.block__header {
+    font-size: 3rem;
+}    
+}  
+
+.block__document {
+    margin-top: 9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+
+
+.block__text {
+ width: 4rem;
+height:4rem ;
+border-radius: 0.6rem;
+background-color: #AFCEDD;
+padding-left: 1rem;
+padding-right: 2rem;
+margin-right: 9rem;
+padding-top: 1rem;
+color: #234894;
+border: none;
+font-family: vazir;
+font-weight: 900;
+font-size: 2rem;
+}
+
+.block__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.block__btn {
+    border: none;
+    background-color: white;
+    font-family: Vazir-Bold;
+    font-size: 600;
+    color: #234894;
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+}
+
+.block__date {
+    font-family: Vazir-Bold;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #696969;
+    padding-top: 1rem;
+}
+
+.block__apply {
+    font-family: Vazir-Bold;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-right: 9rem;
+    padding-left: 1rem;
+}
+
+.block__id {
+    font-family: Vazir-Bold;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #696969;
+    margin-right: 9rem;
+}
+
+.block__personal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block__name {
+    font-family: Vazir-Bold;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1e1e1e;
+    margin-right: 1rem;
+    margin-left: 5rem;
+}
+
+.block__btnapply {
+border-radius: 0.8rem;
+width: 15rem;
+height: 6.5rem;
+background-color: #219f95;
+border: none;
+font-family: vazir;
+font-weight: 500;
+font-size: 2rem;
+color: #ffffff;
+margin-top: 3rem;
+margin-right: 7rem;
+}
+
+
+
+.block__picture {
+    margin-right: 9rem;
+    weight: 4rem;
+    height: 4rem;
+}
+
+.block__admin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-top: 19rem;
+}
